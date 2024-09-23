@@ -1,0 +1,66 @@
+/* CrearProducto.css */
+.crear-producto-container {
+    max-width: 500px; /* Tamaño máximo de la tarjeta */
+    margin: 0 auto; /* Centrar horizontalmente */
+    padding: 20px 40px; /* Asegura un buen padding a izquierda y derecha */
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px; /* Altura mínima para que la tarjeta se vea consistente */
+    position: absolute;
+    top: 50%; /* Centrar verticalmente */
+    left: 50%; /* Centrar horizontalmente */
+    transform: translate(-50%, -50%); /* Ajuste para centrar completamente */
+}
+
+.crear-producto-container h2 {
+    text-align: center;
+    color: #333;
+    width: 100%;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    width: 100%; /* Asegura que el formulario ocupe todo el ancho del contenedor */
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: calc(100% - 20px); /* Espacio a ambos lados del input */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.crear-producto-boton {
+    width: 100%;
+    padding: 10px;
+    background-color: #00bfff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.crear-producto-boton:hover {
+    background-color: #008fbb;
+}
+
+.mensaje {
+    margin-top: 15px;
+    text-align: center;
+    color: #28a745;
+    font-size: 16px;
+}
